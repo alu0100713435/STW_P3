@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alu0100713435/STW_P2.git"
+    "url": "git+https://github.com/alu0100713435/STW_P3.git"
   },
   "keywords": [
     "regexp"
@@ -16,9 +16,9 @@
   "author": "Noel Padron",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alu0100713435/STW_P2/issues"
+    "url": "https://github.com/alu0100713435/STW_P3/issues"
   },
-  "homepage": "https://github.com/alu0100713435/STW_P2#readme",
+  "homepage": "https://github.com/alu0100713435/STW_P3#readme",
   "devDependencies": {
     "chai": "^3.3.0",
     "del": "^2.0.2",
