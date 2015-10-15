@@ -21,6 +21,7 @@
   "homepage": "https://github.com/alu0100713435/STW_P3#readme",
   "devDependencies": {
     "chai": "^3.3.0",
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0"
   }
 }
