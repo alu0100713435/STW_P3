@@ -1,0 +1,22 @@
+{
+  "name": "nuevo_conversor",
+  "version": "1.0.0",
+  "description": "conversor mejorado",
+  "main": "temperature.js",
+  "scripts": {
+    "test": "open tests/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0100713435/STW_P3.git"
+  },
+  "keywords": [
+    "regexp"
+  ],
+  "author": "Noel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100713435/STW_P3/issues"
+  },
+  "homepage": "https://github.com/alu0100713435/STW_P3#readme"
+}
