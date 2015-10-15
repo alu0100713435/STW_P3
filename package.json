@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/alu0100713435/STW_P3/issues"
   },
-  "homepage": "https://github.com/alu0100713435/STW_P3#readme"
+  "homepage": "https://github.com/alu0100713435/STW_P3#readme",
+  "devDependencies": {
+    "chai": "^3.3.0"
+  }
 }
