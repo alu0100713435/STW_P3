@@ -17,6 +17,7 @@ describe("Test Conversor", function() {
     it("Tercera: Probando la funcion calculate", function() {
       var t = new Temperatura(0,"C");
       original.value = "0C";
-      expect(calculate()).to.equal(null);
+      calculate();
+      expect(converted.innerHTML).to.equal("32.0 Farenheit");
     });
 });
