@@ -16,6 +16,7 @@ describe("Test Conversor", function() {
 
     it("Tercera: Probando la funcion calculate", function() {
       var t = new Temperatura(0,"C");
+      var temp = "0C"
       expect(calculate()).to.equal(null);
     });
 });
