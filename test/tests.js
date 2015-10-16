@@ -6,14 +6,12 @@ describe("Test Conversor", function() {
 
     it("Primera: 32F", function() {
       var t = new Temperatura(32,"F");
-      expect(t.celcius()).to.equal("0.0 Celsius");
-      //expect(temp.get_tipo()).to.equal("F");
+      expect(t.celsius()).to.equal("0.0 Celsius");
     });
 
-    it("Segunda: -4.3e-2C", function() {
-      var temp = new Temperatura(-4.3e-2,"C");
-      expect(temp.get_valor()).to.equal(-4.3e-2);
-      expect(temp.get_tipo()).to.equal("C");
+    it("Segunda: -6C", function() {
+      var temp = new Temperatura(-6,"C");
+      expect(t.far()).to.equal("21.2 Farenheit");
     });
 
     it("Debería ser: 3.2e4F", function() {
