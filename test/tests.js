@@ -4,13 +4,13 @@ describe("Test Conversor", function() {
 
   var fin = document.getElementById("converted");
 
-    it("Debería ser: 32e4F", function() {
-      var temp = new Temperatura(32e4,"F");
-      expect(temp.get_valor()).to.equal(32e4);
-      expect(temp.get_tipo()).to.equal("F");
+    it("Primera: 32F", function() {
+      var t = new Temperatura(32,"F");
+      expect(t.celcius()).to.equal("0.0 Celsius");
+      //expect(temp.get_tipo()).to.equal("F");
     });
 
-    it("Debería ser: -4.3e-2C", function() {
+    it("Segunda: -4.3e-2C", function() {
       var temp = new Temperatura(-4.3e-2,"C");
       expect(temp.get_valor()).to.equal(-4.3e-2);
       expect(temp.get_tipo()).to.equal("C");
@@ -53,15 +53,6 @@ describe("Test Conversor", function() {
         var temp = new Temperatura(5,0,"X");
         conversor();
         expect(fin.innerHTML).to.match("/no es correcto/");
-      }
-    });
-
-    it("32,0576F === 0.032C", function() {
-      window.onload = function() {
-        var temp = new Temperatura(-2.3,0,"C");
-        var res = "El resultado es: " + temp.get_valor() + " " + temp.get_tipo();
-        document.getElementById("resultado").innerHTML = res;
-        expect(fin.innerHTML).to.equal("El resultado es: -2.3 C");
       }
     });
 });
