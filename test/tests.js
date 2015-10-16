@@ -2,7 +2,7 @@ var expect = chai.expect;
 
 describe("Test Conversor", function() {
 
-  var fin = document.getElementById("converted");
+  var converted = document.getElementById("converted");
 
     it("Primera: 32F", function() {
       var t = new Temperatura(32,"F");
@@ -15,7 +15,6 @@ describe("Test Conversor", function() {
     });
 
     it("Tercera: Probando la funcion calculate", function() {
-      var t = new Temperatura(0,"C");
       original.value = "0C";
       calculate();
       expect(converted.innerHTML).to.equal("32.0 Farenheit");
