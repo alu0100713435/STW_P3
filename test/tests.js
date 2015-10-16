@@ -6,12 +6,12 @@ describe("Test Conversor", function() {
 
     it("Primera: 32F", function() {
       var t = new Temperatura(32,"F");
-      expect(t.celsius()).to.equal("0.0 Celsius");
+      expect(t.far()).to.equal("0.0 Celsius");
     });
 
     it("Segunda: -6C", function() {
       var temp = new Temperatura(-6,"C");
-      expect(t.far()).to.equal("21.2 Farenheit");
+      expect(t.celsius()).to.equal("21.2 Farenheit");
     });
 
     it("Debería ser: 3.2e4F", function() {
