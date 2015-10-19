@@ -37,4 +37,16 @@ describe("Test Conversor", function() {
       calculate();
       expect(converted.innerHTML).to.equal("34.9 Farenheit");
     });
+    
+    it("Cuarta: Probando la funcion calculate", function() {
+      original.value = "32e2C";
+      calculate();
+      expect(converted.innerHTML).to.equal("1184.0 Farenheit");
+    });
+    
+    it("Cuarta: Probando la funcion calculate", function() {
+      original.value = "3ju";
+      calculate();
+      expect(converted.innerHTML).to.equal("ERROR! Prueba con algo como esto '-4.2C' ");
+    });
 });
