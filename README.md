@@ -10,7 +10,7 @@ http://alu0100713435.github.io/STW_P3/index
 
 ## Enlace a las pruebas blanket ##
 
-http://alu0100713435.github.io/STW_P3/test/test_blanlet.html
+http://alu0100713435.github.io/STW_P3/test/test_blanket.html
 
 ## Enlace a mi pagina de la asignatura SYTW ##
 
