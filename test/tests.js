@@ -19,4 +19,22 @@ describe("Test Conversor", function() {
       calculate();
       expect(converted.innerHTML).to.equal("32.0 Farenheit");
     });
+    
+    it("Cuarta: Probando la funcion calculate", function() {
+      original.value = "32F";
+      calculate();
+      expect(converted.innerHTML).to.equal("0.0 Celsius");
+    });
+    
+    it("Cuarta: Probando la funcion calculate", function() {
+      original.value = "32e-2F";
+      calculate();
+      expect(converted.innerHTML).to.equal("-16.9 Celsius");
+    });
+    
+    it("Cuarta: Probando la funcion calculate", function() {
+      original.value = "32e-2C";
+      calculate();
+      expect(converted.innerHTML).to.equal("34.9 Farenheit");
+    });
 });
