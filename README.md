@@ -1,4 +1,4 @@
-**Practica 2**
+**Practica 3**
 ==============
 
 
@@ -6,11 +6,11 @@ Desarrollo de un conversor de temperaturas en JavaScript, utilizando mocha, chai
 
 ## Enlace al conversor ##
 
-http://alu0100713435.github.io/STW_P2/index
+http://alu0100713435.github.io/STW_P3/index
 
-## Enlace a las pruebas mocha ##
+## Enlace a las pruebas blanket ##
 
-http://alu0100713435.github.io/STW_P2/test/index
+http://alu0100713435.github.io/STW_P3/test/test_blanlet.html
 
 ## Enlace a mi pagina de la asignatura SYTW ##
 
