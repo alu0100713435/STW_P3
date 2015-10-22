@@ -28,6 +28,7 @@
     "gulp-minify-html": "^1.0.4",
     "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6",
+    "karma": "^0.13.11",
     "mocha": "^2.3.3"
   }
 }
